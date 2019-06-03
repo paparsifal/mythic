@@ -19,7 +19,6 @@
     "vuetify": "^1.5.5"
   },
   "devDependencies": {
-    "@160over90/vue-cli-plugin-stylelint": "0.0.2",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
