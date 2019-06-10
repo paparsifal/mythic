@@ -4,7 +4,7 @@
         <v-layout row wrap>
             <v-flex xs12 sm6>
                 <v-card-text>
-                    <p v-html="resultat"></p>
+                    <p v-for="resultat in resultats" :key="resultat.texte" v-html="resultat.texte"></p>
                 </v-card-text>
             </v-flex>
             <v-flex xs12 sm6>
@@ -29,7 +29,7 @@ import actionsData from '../assets/actions.json'
 import subjectsData from '../assets/subjects.json'
 export default {
   data: () => ({
-    resultat: 'Roll',
+    resultats: [],
     proba: {
       'IM': 99,
       'QI': 85,
@@ -58,11 +58,12 @@ export default {
     },
     focusRoll: function () {
       let tirage = Math.floor(Math.random() * 101)
-      this.resultat = this.focus.find(function (e) { return e.l <= tirage && tirage <= e.u }).e.fr
+      let resultat = this.focus.find(function (e) { return e.l <= tirage && tirage <= e.u }).e.fr
       tirage = Math.floor(Math.random() * 101)
-      this.resultat += ' : ' + this.actions[tirage].fr
+      resultat += ' : ' + this.actions[tirage].fr
       tirage = Math.floor(Math.random() * 101)
-      this.resultat += ' ' + this.subjects[tirage].fr
+      resultat += ' ' + this.subjects[tirage].fr
+      this.resultats.push({texte: resultat});
     }
   }
 }
