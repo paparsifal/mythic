@@ -1,0 +1,90 @@
+[
+    {
+        "l": 1,
+        "u": 7,
+        "e": {
+            "en": "Remote event",
+            "fr": "Evènement distant"
+        }
+    },
+    {
+        "l": 8,
+        "u": 28,
+        "e": {
+            "en": "NPC Action",
+            "fr": "Action PNJ"
+        }
+    },
+    {
+        "l": 29,
+        "u": 35,
+        "e": {
+            "en": "Introduce a new NPC",
+            "fr": "Introduire un nouveau PNJ"
+        }
+    },
+    {
+        "l": 36,
+        "u": 45,
+        "e": {
+            "en": "Move toward a thread",
+            "fr": "Avancer dans une intrigue"
+        }
+    },
+    {
+        "l": 46,
+        "u": 52,
+        "e": {
+            "en": "Move away from a thread",
+            "fr": "S'éloigner d'une intrigue"
+        }
+    },
+    {
+        "l": 53,
+        "u": 55,
+        "e": {
+            "en": "Close a thread",
+            "fr": "Cloturer une intrigue"
+        }
+    },
+    {
+        "l": 56,
+        "u": 67,
+        "e": {
+            "en": "PC negative",
+            "fr": "PJ négatif"
+        }
+    },
+    {
+        "l": 68,
+        "u": 75,
+        "e": {
+            "en": "PC positive",
+            "fr": "PJ positif"
+        }
+    },
+    {
+        "l": 76,
+        "u": 83,
+        "e": {
+            "en": "Ambigous event",
+            "fr": "Evènement ambigu"
+        }
+    },
+    {
+        "l": 84,
+        "u": 92,
+        "e": {
+            "en": "NPC negative",
+            "fr": "PNJ négatif"
+        }
+    },
+    {
+        "l": 93,
+        "u": 100,
+        "e": {
+            "en": "NPC positive",
+            "fr": "PNJ positif"
+        }
+    }
+]
