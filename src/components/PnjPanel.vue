@@ -2,7 +2,7 @@
     <v-container>
         <h1>Liste des PNJs</h1>
         <v-list>
-            <v-list-tile v-for="pnj in pnjs" :key="pnj" @click="">
+            <v-list-tile v-for="pnj in pnjs" :key="pnj">
                 {{pnj}}
                 <v-spacer></v-spacer>
                 <v-btn @click="newPNJ=pnj; pnjs.splice(pnjs.indexOf(pnj), 1)" icon><v-icon>delete</v-icon></v-btn>
@@ -19,8 +19,8 @@
 <script>
 export default {
   data: () => ({
-      pnjs: ['Obiwan', 'Yoda', 'Josh Ivans'],
-      newPNJ: ''
+    pnjs: ['Obiwan', 'Yoda', 'Josh Ivans'],
+    newPNJ: ''
   })
 }
 </script>
