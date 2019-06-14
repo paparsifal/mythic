@@ -63,7 +63,7 @@ export default {
       resultat += ' : ' + this.actions[tirage].fr
       tirage = Math.floor(Math.random() * 101)
       resultat += ' ' + this.subjects[tirage].fr
-      this.resultats.push({texte: resultat});
+      this.resultats.push({ texte: resultat })
     }
   }
 }
