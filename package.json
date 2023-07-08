@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "stylelint": "^9.8.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-primer": "^2.2.11",
     "stylelint-order": "^1.0.0",
     "stylelint-processor-html": "^1.0.0",
